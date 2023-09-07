@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.totaldiv{
+    display: grid;
+    grid-template-columns: 80px auto;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    border-bottom: 1px groove gray;
+ 
+}
+.message{
+    margin-left: 30px;
+    margin-top:  25px;
+
+
+}
+.mainhome{
+    margin-left: 30px;
+    margin-top:150px;
+}
+.forum{
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.group{
+    
+    margin-top: 30px;
+    margin-left:30px;
+}
+.calender{
+    margin-left:30px;
+    margin-top: 30px;
+
+}
+.settings{
+    margin-left:30px;
+    margin-top: 30px;
+} 
+.top1{
+    display: flex;
+    gap:10px;
+    border-bottom: 1px groove gray;
+ 
+}
+/* 
+.top2{
+    text-align: left;
+}
+ */
+.top2{
+    justify-content: space-between;
+}
+.top1{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+.right{
+    background-color: antiquewhite;
+}
+.allinbox{
+    display: flex;
+
+}
+.second{
+    height: 100px;
+}
